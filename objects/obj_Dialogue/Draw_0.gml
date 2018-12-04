@@ -1,0 +1,11 @@
+draw_set_color(c_black)
+draw_set_alpha(0.5)
+draw_rectangle(0, 180, 320, 150, false)
+draw_set_alpha(1)
+draw_text(x + 15, y + 1, string_copy(text, 1, letters))
+draw_text(x + 16, y + 1, string_copy(text, 1, letters))
+draw_text(x + 15, y, string_copy(text, 1, letters))
+draw_set_color(c_white)
+draw_text(x + 16, y, string_copy(text, 1, letters))
+
+draw_sprite(face, 0, x, y)
